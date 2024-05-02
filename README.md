@@ -34,6 +34,9 @@ Capture Packets WITHOUT using a covert channel
 Capture Packets USING a covert channel
 ===============================================
 
+**Note:  scapy must be installed on the sender and receiver.  To install scapy on the sender and receiver type:
+sudo pip3 install scapy
+
 1. Command capture packets on the router 192.168.1.241/10.8.9.149
    sudo snort -Q -A console -q -k none -c /etc/snort/snort.conf -i ens3:ens9
 
